@@ -1,0 +1,15 @@
+@use "styles/variables.scss";
+
+.pagination {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+
+  span {
+    color: white;
+    font: variables.$fz-md variables.$font;
+    padding: 0 1rem;
+  }
+}
